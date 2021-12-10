@@ -1,0 +1,11 @@
+@import '../../shared/scss/colors';
+@import '../../shared/scss/mixins';
+
+.modal-see-orders {
+    @include modal();
+
+    .confirm-button {
+        @include button('confirm');
+        float: right;
+    }
+}

@@ -1,0 +1,11 @@
+<div class="container list-offers">
+    <div class="list-offers-title mt-5 d-flex flex-row justify-content-between align-items-center">
+        <h1 class="mb-0">Aqui estão as ofertas para suas cotações</h1>
+        <button [routerLink]="['/nova-oferta']" class="btn">Nova oferta</button>
+    </div>
+    <div class="row">
+        <div *ngFor="let offer of listOfOffers" class="col-md-4">
+            <app-offer-card [offer]="offer"></app-offer-card>
+        </div>
+    </div>
+</div>

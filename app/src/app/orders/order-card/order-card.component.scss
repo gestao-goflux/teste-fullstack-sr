@@ -1,0 +1,21 @@
+@import '../../shared/scss/colors';
+@import '../../shared/scss/mixins';
+
+.list-orders-card {
+    @include box-shadow('default');
+    width: 100%;
+    margin-bottom: 30px;
+
+    .list-orders-card-header {
+        border-bottom: 1px solid $wildSand;
+    }
+
+    .card-cancel-button {
+        @include button-outline('cancel');
+        margin-right: 25px;
+    }
+
+    .card-confirm-button {
+        @include button-outline('confirm');
+    }
+}

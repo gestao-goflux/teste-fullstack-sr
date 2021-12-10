@@ -1,0 +1,46 @@
+@import '../../shared/scss/colors';
+@import '../../shared/scss/mixins';
+
+.go-back {
+  background-color: transparent;
+  text-decoration: underline;
+  font-size: 20px;
+  border: none;
+  color: $havelockBlue;
+  position: absolute;
+  top: 13%;
+  left: 9%;
+
+  &:hover {
+    transition: all ease .3;
+    color: $amasinka;
+  }
+}
+
+.offer-form {
+  @include box-shadow('full');
+
+  .form-labels {
+    color: $dustyGray;
+  }
+}
+
+.form-box {
+  border: 1px solid $wildSand;
+  border-radius: 4px;
+  padding: 20px 15px;
+  margin-bottom: 20px;
+
+  span {
+    font-weight: bold;
+  }
+}
+
+.cancel-button {
+  @include button-outline('cancel');
+  margin-right: 15px;
+}
+
+.confirm-button {
+  @include button('confirm');
+}

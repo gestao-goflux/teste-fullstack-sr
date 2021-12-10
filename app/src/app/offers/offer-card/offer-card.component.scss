@@ -1,0 +1,38 @@
+@import '../../shared/scss/colors';
+@import '../../shared/scss/mixins';
+
+.list-offers-card {
+    @include box-shadow('default');
+    width: 100%;
+    margin-bottom: 30px;
+    min-height: 330px;
+
+    &.accepted {
+        background-color: $teaGreen;
+    }
+
+    .list-offers-card-header {
+        h1 {
+            border-bottom: 1px solid $wildSand;
+   
+        }
+
+        span {
+            color: $white;
+            background-color: $oceanGreen;
+            width: 20px;
+            height: 20px;
+            padding: 1px 5px 3px 7px;
+            font-size: 12px;
+            border-radius: 50px;
+        }
+    }
+
+    .list-offers-card-body {
+        min-height: 180px;
+    }
+
+    .see-offer-button {
+        @include button-outline('default');
+    }
+}
