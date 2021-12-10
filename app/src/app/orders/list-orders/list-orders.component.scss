@@ -1,0 +1,10 @@
+@import '../../shared/scss/colors';
+@import '../../shared/scss/mixins';
+
+.list-orders {
+    .list-orders-title {
+        border-bottom: 1px solid $dustyGray;
+        margin-bottom: 30px;
+        padding-bottom: 12px;
+    }
+}

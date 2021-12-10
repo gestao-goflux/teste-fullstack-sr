@@ -1,0 +1,62 @@
+<button class="go-back" [routerLink]="['/lista-ofertas']">Voltar</button>
+<div class="offer-form">
+    <h1 class="mb-3">Adicionar nova oferta</h1>
+    <form>
+        <div class="form-row row mb-4">
+            <div class="form-group col-md-8">
+                <label class="form-labels" for="productName">Nome do produto:</label>
+                <input type="email" class="form-control" id="productName" placeholder="name@example.com">
+            </div>
+            <div class="form-group col-md-4">
+                <label class="form-labels" for="productQuantity">Quantidade:</label>
+                <input type="number" class="form-control" id="productQuantity" placeholder="1">
+            </div>
+        </div>
+        <div class="form-group form-box">
+            <span>Endereço de retirada:</span>
+            <div class="form-row row mt-2">
+                <div class="col-md-2">
+                    <label class="form-labels" for="currentCep">CEP</label>
+                    <input type="text" class="form-control" id="currentCep" placeholder="00.000-000">
+                </div>
+                <div class="col-md-4">
+                    <label class="form-labels" for="currentLogradouro">Rua</label>
+                    <input type="text" class="form-control" id="currentLogradouro" placeholder="R. Dos Funcionários">
+                </div>
+                <div class="col-md-3">
+                    <label class="form-labels" for="currentCity">Cidade</label>
+                    <input type="text" class="form-control" id="currentCity" placeholder="São Paulo">
+                </div>
+                <div class="col-md-3">
+                    <label class="form-labels" for="currentState">Estado</label>
+                    <input type="text" class="form-control" id="currentState" placeholder="São Paulo">
+                </div>
+            </div>
+        </div>
+        <div class="form-group form-box">
+            <span>Endereço de entrega:</span>
+            <div class="form-row row mt-2">
+                <div class="col-md-2">
+                    <label class="form-labels" for="destinyCep">CEP</label>
+                    <input type="text" class="form-control" id="destinyCep" placeholder="00.000-000">
+                </div>
+                <div class="col-md-4">
+                    <label class="form-labels" for="destinyLogradouro">Rua</label>
+                    <input type="text" class="form-control" id="destinyLogradouro" placeholder="R. Dos Funcionários">
+                </div>
+                <div class="col-md-3">
+                    <label class="form-labels" for="destinyCity">Cidade</label>
+                    <input type="text" class="form-control" id="destinyCity" placeholder="São Paulo">
+                </div>
+                <div class="col-md-3">
+                    <label class="form-labels" for="destinyState">Estado</label>
+                    <input type="text" class="form-control" id="destinyState" placeholder="São Paulo">
+                </div>
+            </div>
+        </div>
+    </form>
+    <div class="d-flex flex-row justify-content-end">
+        <button type="button" class="btn cancel-button">Cancelar</button>
+        <button type="button" class="btn confirm-button">Cadastrar</button>
+    </div>
+</div>
