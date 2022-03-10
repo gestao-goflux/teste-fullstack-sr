@@ -1,4 +1,4 @@
-# Teste goFlux Desenvolvedor Sênior - goTruck
+# Teste goFlux Desenvolvedor Pleno/Sênior - goTruck
 
 Oi, é um prazer ter você aqui, mas preciso da sua ajuda, tivemos a idéia do século, sério, aposto que nunca ouviu isso antes... Eu preciso que você me ajude a finalizar um projeto, ele é incrível, vou te explicar.
 
